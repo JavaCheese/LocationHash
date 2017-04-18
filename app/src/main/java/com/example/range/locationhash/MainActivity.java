@@ -21,11 +21,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 
-/**
- * 1)Выводит местоположение и json строку  на экран,
- * 2)Записывает  файл,
- * 3)Находит хеш
- */
 
 public class MainActivity extends AppCompatActivity {
 
@@ -83,8 +78,8 @@ public class MainActivity extends AppCompatActivity {
     };
 
     /**
-     * Получает коордынаты, выводит их на экран,
-     * записывает информацию в json и сохраняет в файл
+     * Get location, show,
+     * write info into JSON and save
      * @param location
      */
     private void showLocation(Location location) {
@@ -112,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     /**
-     * Записывает в файл
+     * Write to file
      * @param tempGson
      */
     private void writeToFile(String tempGson){
